@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+body
+{
+	background-color: black;
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(42, 38, 39);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+		margin-top: 40px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+	font-family: 'Baloo';
+	color: lightslategrey;
+	font-weight: bold;
+	font-size: 28px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: #4c474c;
+border-radius: 10px;
+border: #333333 solid 4px;
+padding: 10px;
+float: none;
+text-align: left;
+}
+h3, h1 {
+	font-family: "Baloo";
+	color: grey;
+}
+#button {
+	border: 3px solid darkgrey;
+	border-radius: 30px;
+	background: black;
+	font-family: 'Baloo';
+}
+.BobbyClass {
+	color: grey
+
+}
+#player1_name_input, #player2_name_input {
+	background-color: rgb(42, 38, 39);
+	border: #373737 solid 3px;
+	border-radius: 20px;
+}
+#player1_score, #player2_score {
+	font-size: 30px;
+	color: lightslategrey;
+	font-family: 'Baloo';
+}
+#sendbutton {
+	font-family: "Baloo";
+	background-color: rgb(42, 38, 39);
+	border: #373737 solid 3px;
+	border-radius: 20px;
+	font-size: 18px;
+}
+#number1, #number2{
+	font-family: "Baloo";
+	background-color: #080402;
+	border: #373737 ridge 4px;
+	border-radius: 25px;
+}
+#title {
+	color:#41424c;
+	font-family: 'Baloo';
+	font-size: 30px;
+}
+#label {
+	color:#41424c;
+	font-family: 'Baloo';
+}
+#label2 {
+	color: red;
+	font-family: 'Baloo';
+}
+#player_question, #player_answer {
+	color:#41424c;
+	font-family: 'Baloo';
+	font-size: 20px;
+}
